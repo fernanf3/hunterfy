@@ -1,0 +1,19 @@
+// Details 
+Link: www.hunterfy.com
+
+
+Question the form this proyect
+
+Cuestionario versión corta
+1.      
+	nombre
+2.      
+	lugar (incluir indiferente o todos/grand slam)
+3.      
+	tamaño
+4.      
+	mes en el que desea cazarlo
+5.      
+	numero de cazadores y acompañantes
+6.      
+	donde enviamos las propuestas deseadas

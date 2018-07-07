@@ -1,0 +1,28 @@
+{
+  "name": "hunterfy",
+  "dependencies": {
+    "@polymer/app-layout": "^3.0.0-pre.21",
+    "@polymer/app-route": "^3.0.0-pre.21",
+    "@polymer/iron-icon": "^3.0.0-pre.21",
+    "@polymer/iron-iconset-svg": "^3.0.0-pre.21",
+    "@polymer/iron-list": "^3.0.0-pre.21",
+    "@polymer/iron-pages": "^3.0.0-pre.21",
+    "@polymer/neon-animation": "^3.0.0-pre.21",
+    "@polymer/paper-button": "^3.0.0-pre.21",
+    "@polymer/paper-checkbox": "^3.0.0-pre.21",
+    "@polymer/paper-dialog": "^3.0.0-pre.21",
+    "@polymer/paper-icon-button": "^3.0.0-pre.21",
+    "@polymer/paper-item": "^3.0.0-pre.21",
+    "@polymer/paper-listbox": "^3.0.0-pre.21",
+    "@polymer/paper-spinner": "^3.0.0-pre.21",
+    "@polymer/paper-toast": "^3.0.0-pre.19",
+    "@polymer/polymer": "^3.0.0",
+    "moment": "^2.22.2",
+    "paper-date-picker": "git+https://github.com/bendavis78/paper-date-picker.git",
+    "paper-input-place": "^2.0.1"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  }
+}
