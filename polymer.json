@@ -1,6 +1,6 @@
 {
   "entrypoint": "index.html",
-  "shell": "src/app-root/app-root.js",
+  "shell": "src/app-root.js",
   "sources": [
     "static/**/*"
   ],

@@ -3,6 +3,13 @@ import '@polymer/app-route/app-route';
 import '@polymer/paper-ripple/paper-ripple';
 import './index.css';
 
+import './name';
+import './place';
+import './size';
+import './calendar';
+import './hunting';
+import './sendEmail';
+
 class Form extends PolymerElement {
   static get template(){
     return html`
@@ -235,37 +242,30 @@ class Form extends PolymerElement {
     console.log('step')
     switch(page){
       case 'name':
-        import('./name');
         this.set('route.path', '/name');
         this.set('tabs.name', 'active');
         break;
       case 'place':
-        import('./place');
         this.set('route.path', '/place');
         this.set('tabs.place', 'active');
         break;
       case 'size':
-        import('./size');
         this.set('route.path', '/size');
         this.set('tabs.size', 'active');
         break;
       case 'calendar':
-        import('./calendar');
         this.set('route.path', '/calendar');
         this.set('tabs.calendar', 'active');
         break;
       case 'hunting':
-        import('./hunting');
         this.set('route.path', '/hunting');
         this.set('tabs.hunting', 'active');
         break;
       case 'sendEmail':
-        import('./sendEmail');
         this.set('route.path', '/sendEmail');
         this.set('tabs.sendEmail', 'active');
         break;
       default:
-        import('./name');
         this.set('route.path', '/name');
         this.set('tabs.name', 'active');
         break;
