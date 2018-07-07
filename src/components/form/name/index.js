@@ -6,7 +6,7 @@ import './index.css';
 class Name extends PolymerElement {
   static get template(){
     return html`
-      <style include="style-element"></style>
+      <style include="style-element-name"></style>
       <form id="form">
         <h2 class="title">What is your name?</h2>
         <div class="form-control">

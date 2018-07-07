@@ -8,7 +8,7 @@ import './index.css';
 class Huntings extends PolymerElement {
   static get template(){
     return html`
-      <style include="style-element"></style>
+      <style include="style-element-hunting"></style>
       <form id="form">
         <h2 class="title">How many are you?</h2>
         <div class="form-control">

@@ -3593,8 +3593,8 @@
         }
       }
     </style>
-  </template>`;styleElement.register("style-element");class Landing extends PolymerElement{static get template(){return html`
-      <style include="style-element"></style>
+  </template>`;styleElement.register("style-element-landing");class Landing extends PolymerElement{static get template(){return html`
+      <style include="style-element-landing"></style>
       <header>
         <div container>
           <div id="blank"></div>
@@ -4098,7 +4098,7 @@
         }
       }
     </style>
-  </template>`;styleElement$1.register("style-element");const styleElement$2=document.createElement("dom-module");styleElement$2.innerHTML=`<template>
+  </template>`;styleElement$1.register("style-element-form");const styleElement$2=document.createElement("dom-module");styleElement$2.innerHTML=`<template>
     <style>
       :host {
         position: relative;
@@ -4134,8 +4134,8 @@
         color: #ffff;
       }
     </style>
-  </template>`;styleElement$2.register("style-element");class Name extends PolymerElement{static get template(){return html`
-      <style include="style-element"></style>
+  </template>`;styleElement$2.register("style-element-name");class Name extends PolymerElement{static get template(){return html`
+      <style include="style-element-name"></style>
       <form id="form">
         <h2 class="title">What is your name?</h2>
         <div class="form-control">
@@ -4260,8 +4260,8 @@
         }
       }
     </style>
-  </template>`;styleElement$3.register("style-element");class Place extends PolymerElement{static get template(){return html`
-      <style include="style-element"></style>
+  </template>`;styleElement$3.register("style-element-place");class Place extends PolymerElement{static get template(){return html`
+      <style include="style-element-place"></style>
       <form id="form">
         <h2 class="title">[[ object.name ]], ¿What city are you from?</h2>
         <div class="form-control">
@@ -4396,8 +4396,8 @@
         }
       }
     </style>
-  </template>`;styleElement$4.register("style-element");class Size extends PolymerElement{static get template(){return html`
-      <style include="style-element"></style>
+  </template>`;styleElement$4.register("style-element-size");class Size extends PolymerElement{static get template(){return html`
+      <style include="style-element-size"></style>
       <form id="form">
         <h2 class="title">What category of trophy doo you want?</h2>
         <div class="form-control">
@@ -4880,8 +4880,8 @@
       }
     }
    </style>
- </template>`;styleElement$8.register("style-element");class Calendar extends PolymerElement{static get template(){return html`
-      <style include="style-element"></style>
+ </template>`;styleElement$8.register("style-element-calendar");class Calendar extends PolymerElement{static get template(){return html`
+      <style include="style-element-calendar"></style>
       <form id="form">
         <h2 class="title">When does the adventure begin?</h2>
         <div class="form-control">
@@ -4992,8 +4992,8 @@
         }
       }
     </style>
-  </template>`;styleElement$9.register("style-element");class Huntings extends PolymerElement{static get template(){return html`
-      <style include="style-element"></style>
+  </template>`;styleElement$9.register("style-element-hunting");class Huntings extends PolymerElement{static get template(){return html`
+      <style include="style-element-hunting"></style>
       <form id="form">
         <h2 class="title">How many are you?</h2>
         <div class="form-control">
@@ -5083,8 +5083,8 @@
         height: 20px;
       }
     </style>
-  </template>`;styleElement$10.register("style-element");class sendEmail extends PolymerElement{static get template(){return html`
-      <style include="style-element"></style>
+  </template>`;styleElement$10.register("style-element-sendEmail");class sendEmail extends PolymerElement{static get template(){return html`
+      <style include="style-element-sendEmail"></style>
       <form id="form">
         <h2 class="title">[[ object.name ]], leave your contact details ready</h2>
         <h4 class="subtitle">We send you the offers you are looking for</h4>
@@ -5108,7 +5108,7 @@
         </div>
       </form>
     `}constructor(){super();this._submit=this._submit.bind(this);this._onclick=this._onclick.bind(this);this._back=this._back.bind(this);this._checkboxPriv=this._checkboxPriv.bind(this)}ready(){super.ready();this.$.form.addEventListener("submit",this._submit)}static get properties(){return{page:{type:Object,notify:!0},object:{type:Object,notify:!0}}}_back(){this.set("page","hunting")}_onclick(){if(!0===this.object.policePriv){if(this.$.email.value&&this.$.phone.value)this.$.submit.click();else this.toast("The email field or phone filed is empty")}else this.toast("You have not accepted the privacy policies")}_checkboxPriv(e){this.set("object.policePriv",e.target.checked)}_submit(e){e.preventDefault();this.setProperties({object:{...this.object,sendEmail:{email:this.$.email.value,phone:this.$.phone.value}}});this.loading=!this.loading;fetch("./sendEmail.php",{headers:{Accept:"application/json","Content-Type":"application/json"},method:"POST",body:this.object}).then(response=>response.json()).then(response=>{console.log(response)}).catch(error=>{this.toast("Error de conexion");console.log(error)}).finally(()=>this.loading=!this.loading)}}window.customElements.define("app-sendemail",sendEmail);class Form extends PolymerElement{static get template(){return html`
-      <style include="style-element"></style>
+      <style include="style-element-form"></style>
       <app-route
         route="{{route}}"
         pattern="/:page"

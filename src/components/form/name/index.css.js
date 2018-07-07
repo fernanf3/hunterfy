@@ -39,4 +39,4 @@ styleElement.innerHTML =
     </style>
   </template>`;
 
-styleElement.register('style-element');
+styleElement.register('style-element-name');

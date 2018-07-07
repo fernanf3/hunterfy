@@ -10,7 +10,7 @@ import './index.css';
 class Calendar extends PolymerElement {
   static get template(){
     return  html`
-      <style include="style-element"></style>
+      <style include="style-element-calendar"></style>
       <form id="form">
         <h2 class="title">When does the adventure begin?</h2>
         <div class="form-control">

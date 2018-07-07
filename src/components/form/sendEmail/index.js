@@ -8,7 +8,7 @@ import './index.css';
 class sendEmail extends PolymerElement {
   static get template(){
     return html`
-      <style include="style-element"></style>
+      <style include="style-element-sendEmail"></style>
       <form id="form">
         <h2 class="title">[[ object.name ]], leave your contact details ready</h2>
         <h4 class="subtitle">We send you the offers you are looking for</h4>

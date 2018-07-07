@@ -7,7 +7,7 @@ import './index.css';
 class Landing extends PolymerElement {
   static get template(){
     return html`
-      <style include="style-element"></style>
+      <style include="style-element-landing"></style>
       <header>
         <div container>
           <div id="blank"></div>

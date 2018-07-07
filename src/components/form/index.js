@@ -13,7 +13,7 @@ import './sendEmail';
 class Form extends PolymerElement {
   static get template(){
     return html`
-      <style include="style-element"></style>
+      <style include="style-element-form"></style>
       <app-route
         route="{{route}}"
         pattern="/:page"

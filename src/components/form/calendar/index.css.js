@@ -63,4 +63,4 @@ styleElement.innerHTML =
    </style>
  </template>`;
 
- styleElement.register('style-element');
+ styleElement.register('style-element-calendar');

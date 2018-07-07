@@ -8,7 +8,7 @@ import './index.css';
 class Size extends PolymerElement {
   static get template(){
     return html`
-      <style include="style-element"></style>
+      <style include="style-element-size"></style>
       <form id="form">
         <h2 class="title">What category of trophy doo you want?</h2>
         <div class="form-control">
