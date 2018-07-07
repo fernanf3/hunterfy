@@ -1,0 +1,15 @@
+{
+  "name": "Hunterfy",
+  "short_name": "Hunterfy",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2b2c89cc",
+  "background_color": "#EEEEE",
+  "icons": [
+    {
+      "src": "static/favicon.png",
+      "sizes": "23x23",
+      "type": "image/png"
+    }
+  ]
+}
