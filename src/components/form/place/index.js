@@ -26,28 +26,28 @@ class Place extends PolymerElement {
           <div class="grid-container">
             <div class="grid-place">
               <a id="gredos">
-                <img src="./static/images/G1 Hunting spanish ibex.jpg" alt=""/>
+                <img src="./hunterfy/static/images/G1 Hunting spanish ibex.jpg" alt=""/>
                 <h3>gredos</h3>
                 <paper-ripple></paper-ripple>
               </a>
             </div>
             <div class="grid-place">
               <a id="sierraNevada">
-                <img src="./static/images/Spanish Hunting Landscapes.jpg" alt=""/>
+                <img src="./hunterfy/static/images/Spanish Hunting Landscapes.jpg" alt=""/>
                 <h3>sierra nevada</h3>
                 <paper-ripple></paper-ripple>
               </a> 
             </div>
             <div class="grid-place">
               <a id="ronda">
-                <img src="./static/images/Panoramic view of Ronda.jpg" alt=""/>
+                <img src="./hunterfy/static/images/Panoramic view of Ronda.jpg" alt=""/>
                 <h3>ronda</h3>
                 <paper-ripple></paper-ripple>
               </a>  
             </div>
             <div class="grid-place">
               <a id="beceite">
-                <img src="./static/images/G1 Beceite secrets.jpg" alt=""/>
+                <img src="./hunterfy/static/images/G1 Beceite secrets.jpg" alt=""/>
                 <h3>beceite</h3>
                 <paper-ripple></paper-ripple>
               </a>

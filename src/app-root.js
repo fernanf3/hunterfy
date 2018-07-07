@@ -129,7 +129,7 @@ class AppRoot extends PolymerElement {
         <app-drawer id="drawer" slot="drawer" >
           <app-toolbar>
             <a href="[[ routePath ]]">
-              <paper-icon-button class="logo" src="./static/logo.png" disabled></paper-icon-button>
+              <paper-icon-button class="logo" src="./hunterfy/static/logo.png" disabled></paper-icon-button>
             </a>
           </app-toolbar>
           <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
@@ -154,7 +154,7 @@ class AppRoot extends PolymerElement {
         <app-header-layout has-scrolling-region fullbleed id="layout">
           <app-header slot="header" condenses fixed effects="waterfall" id="header" hidden="[[ hidden ]]">
             <app-toolbar>
-              <paper-icon-button class="logo" src="./static/logo.png"></paper-icon-button>
+              <paper-icon-button class="logo" src="./hunterfy/static/logo.png"></paper-icon-button>
               <div main-href>
                 <paper-button>
                   <a href="[[ routePath ]]form">

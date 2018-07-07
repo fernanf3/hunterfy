@@ -13,6 +13,8 @@ import moment from 'moment';
 import '../calendar-icons.js';
 import './index.css';
 
+moment.local('es');
+
 // Ignore movement within this distance (px)
 const WIGGLE_THRESHOLD = 4;
 const WIGGLE_THRESHOLD_SQUARE = WIGGLE_THRESHOLD * WIGGLE_THRESHOLD;

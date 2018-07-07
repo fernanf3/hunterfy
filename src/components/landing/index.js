@@ -57,7 +57,7 @@ class Landing extends PolymerElement {
             </div>
           </div>
         </div>
-        <video src="./static/video/video.mp4" type="video/mp4" autoplay loop muted poster="./static/mountain-bg.png"></video>
+        <video src="./hunterfy/static/video/video.mp4" type="video/mp4" autoplay loop muted poster="./hunterfy/static/mountain-bg.png"></video>
       </header>
       <section class="expirence">
         <div class="container">
@@ -67,7 +67,7 @@ class Landing extends PolymerElement {
           </div> 
           <div class="content-grid">
             <div class="grid">
-              <img src="./static/icon/tell.png" alt="icon-tell" class="img-card"/>
+              <img src="./hunterfy/static/icon/tell.png" alt="icon-tell" class="img-card"/>
               <h3 class="title">Tell us what you need</h3>
               <hr/>
               <p>
@@ -77,7 +77,7 @@ class Landing extends PolymerElement {
               </p>
             </div>
             <div class="grid">
-              <img src="./static/icon/check.png" alt="icon-check" class="img-card"/>
+              <img src="./hunterfy/static/icon/check.png" alt="icon-check" class="img-card"/>
               <h3 class="title">Verified Outfitters</h3>
               <hr/>
               <p>
@@ -85,7 +85,7 @@ class Landing extends PolymerElement {
               </p>
             </div>
             <div class="grid">
-              <img src="./static/icon/sofa.png" alt="icon-safa" class="img-card"/>
+              <img src="./hunterfy/static/icon/sofa.png" alt="icon-safa" class="img-card"/>
               <h3 class="title">Book it from your sofa</h3>
               <hr/>
               <p>
@@ -93,7 +93,7 @@ class Landing extends PolymerElement {
               </p>           
             </div>
             <div class="grid">
-              <img src="./static/icon/something.png" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/icon/something.png" alt="icon-somthing" class="img-card"/>
               <h3 class="title">No commissions</h3>
               <hr/>
               <p>
@@ -114,23 +114,23 @@ class Landing extends PolymerElement {
           </div>
           <div class="content-grid">
             <div class="grid animation">
-              <img src="./static/images/Enjoy Hunting Activities.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/Enjoy Hunting Activities.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./static/images/Exclusive Acommodation.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/Exclusive Acommodation.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation text">
               <p>“With the hunt you never know but I have hit you guys”</p>
               <span>Martín G.</span>
             </div>
             <div class="grid animation">
-              <img src="./static/images/Exclusive Services of Hunterfy.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/Exclusive Services of Hunterfy.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./static/images/Friendly Hunters.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/Friendly Hunters.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./static/images/Full Hunting Experience.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/Full Hunting Experience.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation text">
               <p>“Tremendous hunting day, what else can I say”
@@ -138,7 +138,7 @@ class Landing extends PolymerElement {
               <span>Antonio D.</span>
             </div>
             <div class="grid animation">
-              <img src="./static/images/Gredos Ibex stalking.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/Gredos Ibex stalking.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation text">
               <p>“Highlight the personal service received and the team behind. Thank you”
@@ -146,26 +146,26 @@ class Landing extends PolymerElement {
               <span>John AG.</span>
             </div>
             <div class="grid animation">
-              <img src="./static/images/Hunterfy senses.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/Hunterfy senses.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./static/images/Hunting ibex spain.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/Hunting ibex spain.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./static/images/International Hunter.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/International Hunter.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./static/images/International Hunters.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/International Hunters.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation text">
               <p>“I feel your passion for hunting from beginning to end. Do not stop doing things like this. Thank you”</p>
               <span>Mary E.</span>
             </div>
             <div class="grid animation">
-              <img src="./static/images/Spanish Food with the best chef.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/Spanish Food with the best chef.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./static/images/Spanish Ibex Specimen.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./hunterfy/static/images/Spanish Ibex Specimen.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation text">
               <p>“After so many years of hunting, I never imagined finding something so authentic and well done”</p>
@@ -205,7 +205,7 @@ class Landing extends PolymerElement {
       </section>
       <section class="media">
         <div class="container">
-          <img src="./static/images/all.jpg"/>
+          <img src="./hunterfy/static/images/all.jpg"/>
         </div>
       </section>
       <section class="linkbuild">
