@@ -158,13 +158,13 @@ class PaperCalendar extends mixinBehaviors([IronResizableBehavior], PolymerEleme
     this.removeEventListener('iron-resize', this._resizeHandler);
     this.removeEventListener('swiped', this._onSwipe);
   }
-  _validActionPrev(){
-    let today = moment().month(),
-        date  = moment(this.nowDate).month();
+  // _validActionPrev(){
+  //   let today = moment().month(),
+  //       date  = moment(this.nowDate).month();
 
-    console.log(this.disabled, today, date)
-    return this.set('disabled', today === date ? false : date > today ? true : false);
-  }
+  //   console.log(this.disabled, today, date)
+  //   return this.set('disabled', today === date ? false : date > today ? true : false);
+  // }
   dateFormat(date, format, locale) {
     if (!date) {
       return '';
@@ -367,8 +367,8 @@ class PaperCalendar extends mixinBehaviors([IronResizableBehavior], PolymerEleme
       this.transform('translateX(' + this._startPos + 'px)', this.$.months);
       this.fire('swiped', {direction: 'right'});
     }.bind(this));
-    this.set('nowDate', moment(this.nowDate).subtract(1, 'month'))
-    this._validActionPrev();
+    // this.set('nowDate', moment(this.nowDate).subtract(1, 'month'))
+    // this._validActionPrev();
   }
   _swipeNextMonth() {
     if (!this.maxDate || this.currentYear < this.maxDate.getFullYear() || this.currentMonth < this.maxDate.getMonth() + 1) {
@@ -378,8 +378,8 @@ class PaperCalendar extends mixinBehaviors([IronResizableBehavior], PolymerEleme
         this.fire('swiped', {direction: 'left'});
       }.bind(this));
     }
-    this.set('nowDate', moment(this.nowDate).add(1, 'month'))
-    this._validActionPrev();
+    // this.set('nowDate', moment(this.nowDate).add(1, 'month'))
+    // this._validActionPrev();
   }
   _getMonthIdx(pos) {
     // returns the index for the visible month according to the given position
