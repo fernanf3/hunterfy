@@ -4619,7 +4619,7 @@ define(["exports","meta"],function(_exports,meta){"use strict";Object.defineProp
         @apply --layout-flex-5;
       }
     </style>
-  </template>`;styleElement$5.register("style-element-calendar");hooks.local("es");const WIGGLE_THRESHOLD=4,FLICK_SPEED=.5,PRELOAD_MONTHS=1;function dateDiff(a,b){a=new Date(a.getTime());b=new Date(b.getTime());a.setHours(0,0,0,0);b.setHours(0,0,0,0);return(a.getTime()-b.getTime())/864e5}class PaperCalendar extends mixinBehaviors([IronResizableBehavior],PolymerElement){static get template(){return html`
+  </template>`;styleElement$5.register("style-element-calendar");hooks.locale("es");const WIGGLE_THRESHOLD=4,FLICK_SPEED=.5,PRELOAD_MONTHS=1;function dateDiff(a,b){a=new Date(a.getTime());b=new Date(b.getTime());a.setHours(0,0,0,0);b.setHours(0,0,0,0);return(a.getTime()-b.getTime())/864e5}class PaperCalendar extends mixinBehaviors([IronResizableBehavior],PolymerElement){static get template(){return html`
       <style include="style-element-calendar"></style>
       <div id="calendar">
         <div id="months" on-track="_onTrack" class$="{{_contentClass}}">
