@@ -17,40 +17,40 @@ class Size extends PolymerElement {
               <div class="count">[[ size.countGold ]]</div>
               <div class="label">Gold</div>
               <div class="button">
-                <paper-icon-button icon="app-icons:remove" on-click="_removeGold"></paper-icon-button>
-                <paper-icon-button icon="app-icons:add" on-click="_addGold"></paper-icon-button>
+                <paper-icon-button icon="app-icons:remove" on-tap="_removeGold"></paper-icon-button>
+                <paper-icon-button icon="app-icons:add" on-tap="_addGold"></paper-icon-button>
               </div>
             </div>
             <div class="grid">
               <div class="count">[[ size.countSilver ]]</div>
               <div class="label">Silver</div>
               <div class="button">
-                <paper-icon-button icon="app-icons:remove" on-click="_removeSilver"></paper-icon-button>
-                <paper-icon-button icon="app-icons:add" on-click="_addSliver"></paper-icon-button>
+                <paper-icon-button icon="app-icons:remove" on-tap="_removeSilver"></paper-icon-button>
+                <paper-icon-button icon="app-icons:add" on-tap="_addSliver"></paper-icon-button>
               </div>
             </div>
             <div class="grid">
               <div class="count">[[ size.countBronce ]]</div>
               <div class="label">Bronce</div>
               <div class="button">
-                <paper-icon-button icon="app-icons:remove" on-click="_removeBronce"></paper-icon-button>
-                <paper-icon-button icon="app-icons:add" on-click="_addBronce"></paper-icon-button>
+                <paper-icon-button icon="app-icons:remove" on-tap="_removeBronce"></paper-icon-button>
+                <paper-icon-button icon="app-icons:add" on-tap="_addBronce"></paper-icon-button>
               </div>
             </div>
             <div class="grid">
               <div class="count">[[ size.countRepresentative ]]</div>
               <div class="label">Representative</div>
               <div class="button">
-                <paper-icon-button icon="app-icons:remove" on-click="_removeRepresentative"></paper-icon-button>
-                <paper-icon-button icon="app-icons:add" on-click="_addRepresentative"></paper-icon-button>
+                <paper-icon-button icon="app-icons:remove" on-tap="_removeRepresentative"></paper-icon-button>
+                <paper-icon-button icon="app-icons:add" on-tap="_addRepresentative"></paper-icon-button>
               </div>
             </div>
           </div>
           <br/>
           <br/>
           <div class="button-control">
-            <paper-button raised on-click="_back">Back</paper-button>
-            <paper-button raised on-click="_onclick">Next</paper-button>
+            <paper-button raised on-tap="_back">Back</paper-button>
+            <paper-button raised on-tap="_onclick">Next</paper-button>
             <button type="submit" id="submit" class="hidden"></button>  
           </div>
         </div>

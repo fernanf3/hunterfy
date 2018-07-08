@@ -14,7 +14,7 @@ class Name extends PolymerElement {
           <br/>
           <br/>
           <div class="button-control">
-            <paper-button raised on-click="_onclick" on-value-changed="_change">Next</paper-button>
+            <paper-button raised on-tap="_onclick" on-value-changed="_change">Next</paper-button>
             <button type="submit" id="submit" class="hidden"></button>
           </div>
         </div>

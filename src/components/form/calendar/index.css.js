@@ -54,6 +54,36 @@ styleElement.innerHTML =
     paper-dialog .buttons paper-button {
       color: #e05e35;
     }
+    @media screen and (max-width: 768px) {
+      .form-control {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .form-control .form-grid {
+        flex-direction: column;
+      }
+      .form-control .form-grid paper-input {
+        width: 100%;
+      }
+      paper-dialog {
+        top: 0;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        max-height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      paper-dialog paper-date-picker {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+    }
     @media screen and (max-width: 390px){
       .form-control .button-control paper-button {
         width: 100%;

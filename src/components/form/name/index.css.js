@@ -36,6 +36,13 @@ styleElement.innerHTML =
         background-color: #e05e35;
         color: #ffff;
       }
+      @media screen and (max-width: 768px) {
+        .form-control {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+        }
+      }
     </style>
   </template>`;
 

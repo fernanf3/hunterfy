@@ -59,6 +59,13 @@ styleElement.innerHTML =
         width: 20px;
         height: 20px;
       }
+      @media screen and (max-width: 768px) {
+        .form-control {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+        }
+      }
     </style>
   </template>`;
 

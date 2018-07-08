@@ -105,6 +105,11 @@ styleElement.innerHTML =
           box-sizing: border-box;
           padding: 10px;
         } 
+        .form-control {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+        }
       } 
       @media screen and (max-width: 390px){
         .form-control .button-control paper-button {

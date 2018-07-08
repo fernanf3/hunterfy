@@ -170,7 +170,7 @@ class Form extends PolymerElement {
   ready(){
     super.ready();
 
-    this._validRoute();
+    setTimeout(() => this._validRoute(), 200);
   }
   _validRoute(){
     if(Object.keys(this.object).length === 0){

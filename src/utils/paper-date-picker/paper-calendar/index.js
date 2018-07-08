@@ -9,7 +9,6 @@ import '@polymer/paper-styles/color';
 import '@polymer/paper-styles/default-theme';
 import '@polymer/paper-styles/shadow';
 import '@polymer/paper-styles/typography';
-import moment from 'moment';
 import '../calendar-icons.js';
 import './index.css';
 
@@ -38,7 +37,7 @@ function dateDiff(a, b) {
 class PaperCalendar extends mixinBehaviors([IronResizableBehavior], PolymerElement) {
   static get template(){
     return html`
-      <style include="style-element-calendar"></style>
+      <style include="style-element-date-picker-calendar"></style>
       <div id="calendar">
         <div id="months" on-track="_onTrack" class$="{{_contentClass}}">
           <template is="dom-repeat" items="{{_months}}" as="month">

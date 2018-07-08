@@ -4,7 +4,6 @@ import '@polymer/paper-ripple/paper-ripple';
 import '@polymer/iron-icon/iron-icon';
 import '../../../utils/paper-date-picker';
 import '@polymer/paper-dialog/paper-dialog';
-import moment from 'moment';
 import './index.css';
 
 class Calendar extends PolymerElement {
@@ -16,13 +15,13 @@ class Calendar extends PolymerElement {
         <div class="form-control">
           <div class="form-grid">
             <paper-input on-tap="_openDialogStart" type="date" label="Start date:" required value="{{ date.startLabel }}"></paper-input>
-            <paper-input on-tap="_openDialogEnd" type="date" label="End date:" required value="{{ date.endLabel }}"></paper-input>
+            <paper-input on-tap="_openDialogEnd" type="date" label="End date:" required value="{{ date.endLabel }}"></paper-input> 
           </div>
           <br/>
           <br/>
           <div class="button-control">
-            <paper-button raised on-click="_back">Back</paper-button>
-            <paper-button raised on-click="_onclick">Next</paper-button>
+            <paper-button raised on-tap="_back">Back</paper-button>
+            <paper-button raised on-tap="_onclick">Next</paper-button>
             <button type="submit" id="submit" class="hidden"></button>  
           </div>  
         </div>
@@ -31,16 +30,16 @@ class Calendar extends PolymerElement {
         <paper-date-picker date="{{ date.start }}"></paper-date-picker>
         <div class="buttons">
           <paper-button dialog-confirm>Cancel</paper-button>
-          <paper-button on-click="_submitStart">OK</paper-button>
+          <paper-button on-tap="_submitStart">OK</paper-button>
         </div>  
       </paper-dialog>
       <paper-dialog id="datePickerEnd">
         <paper-date-picker date="{{ date.end }}"></paper-date-picker>
         <div class="buttons">
           <paper-button dialog-confirm>Cancel</paper-button>
-          <paper-button on-click="_submitEnd">OK</paper-button>
+          <paper-button on-tap="_submitEnd">OK</paper-button>
         </div>  
-      </paper-dialog>
+      </paper-dialog> 
     `;
   }
   constructor(){

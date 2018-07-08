@@ -17,24 +17,24 @@ class Huntings extends PolymerElement {
               <div class="count">[[ hunting.countHunting ]]</div>
               <div class="label">Hunters</div>
               <div class="button">
-                <paper-icon-button icon="app-icons:remove" on-click="_removeHunters"></paper-icon-button>
-                <paper-icon-button icon="app-icons:add" on-click="_addHunters"></paper-icon-button>
+                <paper-icon-button icon="app-icons:remove" on-tap="_removeHunters"></paper-icon-button>
+                <paper-icon-button icon="app-icons:add" on-tap="_addHunters"></paper-icon-button>
               </div>
             </div>
             <div class="grid">
               <div class="count">[[ hunting.countCompanions ]]</div>
               <div class="label">Companions</div>
               <div class="button">
-                <paper-icon-button icon="app-icons:remove" on-click="_removeCompanions"></paper-icon-button>
-                <paper-icon-button icon="app-icons:add" on-click="_addCompanions"></paper-icon-button>
+                <paper-icon-button icon="app-icons:remove" on-tap="_removeCompanions"></paper-icon-button>
+                <paper-icon-button icon="app-icons:add" on-tap="_addCompanions"></paper-icon-button>
               </div>
             </div>
           </div>
           <br/>
           <br/>
           <div class="button-control">
-            <paper-button raised on-click="_back">Back</paper-button>
-            <paper-button raised on-click="_onclick">Next</paper-button>
+            <paper-button raised on-tap="_back">Back</paper-button>
+            <paper-button raised on-tap="_onclick">Next</paper-button>
             <button type="submit" id="submit" class="hidden"></button>  
           </div>
         </div>

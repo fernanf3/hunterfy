@@ -74,6 +74,13 @@ styleElement.innerHTML =
         color: #ffff;
         border-radius: 100%;
       }
+      @media screen and (max-width: 768px) {
+        .form-control {
+          width: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+        }
+      }
       @media screen and (max-width: 390px){
         .form-control .button-control paper-button {
           width: 100%;

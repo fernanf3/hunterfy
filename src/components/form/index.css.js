@@ -66,7 +66,6 @@ styleElement.innerHTML =
         display: flex;
         flex: 1;
         border-radius: 100%;
-        overflow: hidden;
         text-align: center;
         height: 100%;
         min-width: 80px;
@@ -129,6 +128,7 @@ styleElement.innerHTML =
         }
         .tabs-navigations .step {
           max-width: 80px;
+          margin-bottom: 10px;
         }
         .tabs-navigations .step:first-child,
         .tabs-navigations .step:last-child {

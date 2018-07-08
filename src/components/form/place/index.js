@@ -56,8 +56,8 @@ class Place extends PolymerElement {
           <br/>
           <br/>
           <div class="button-control">
-            <paper-button raised on-click="_back">Back</paper-button>
-            <paper-button raised on-click="_onclick">Next</paper-button>
+            <paper-button raised on-tap="_back">Back</paper-button>
+            <paper-button raised on-tap="_onclick">Next</paper-button>
             <button type="submit" id="submit" class="hidden"></button>  
           </div>
         </div>

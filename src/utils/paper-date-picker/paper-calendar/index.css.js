@@ -171,4 +171,4 @@ styleElement.innerHTML =
     </style>
   </template>`;
 
-styleElement.register('style-element-calendar');
+styleElement.register('style-element-date-picker-calendar');

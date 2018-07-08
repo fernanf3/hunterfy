@@ -92,6 +92,13 @@ styleElement.innerHTML =
           @apply --paper-date-picker-calendar;
         }
       }
+      @media screen and (max-width: 768px) {
+        #datePicker {
+          min-width: 100%;
+          overflow: auto;
+          border-radius: inherit;
+        }
+      }
     </style>
   </template>`;
 

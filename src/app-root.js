@@ -62,7 +62,7 @@ class AppRoot extends PolymerElement {
           outline: none;
         }
         .drawer-list a.iron-selected {
-          color: black;
+          color: white;
           font-weight: bold;
         }
         app-header {
@@ -133,7 +133,7 @@ class AppRoot extends PolymerElement {
             </a>
           </app-toolbar>
           <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
-            <a name="landing" href="[[ routePath ]]landing">
+            <a name="landing" href="[[ routePath ]]form/name">
               <iron-icon icon="app-icons:person"></iron-icon>
               Hunting Assistant
             </a>
