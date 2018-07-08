@@ -3644,7 +3644,7 @@
             </div>
           </div>
         </div>
-        <video src="./hunterfy/static/video/video.mp4" type="video/mp4" autoplay loop muted poster="./hunterfy/static/mountain-bg.png"></video>
+        <video src="./static/video/video.mp4" type="video/mp4" autoplay loop muted poster="./static/mountain-bg.png"></video>
       </header>
       <section class="expirence">
         <div class="container">
@@ -3654,7 +3654,7 @@
           </div> 
           <div class="content-grid">
             <div class="grid">
-              <img src="./hunterfy/static/icon/tell.png" alt="icon-tell" class="img-card"/>
+              <img src="./static/icon/tell.png" alt="icon-tell" class="img-card"/>
               <h3 class="title">Tell us what you need</h3>
               <hr/>
               <p>
@@ -3664,7 +3664,7 @@
               </p>
             </div>
             <div class="grid">
-              <img src="./hunterfy/static/icon/check.png" alt="icon-check" class="img-card"/>
+              <img src="./static/icon/check.png" alt="icon-check" class="img-card"/>
               <h3 class="title">Verified Outfitters</h3>
               <hr/>
               <p>
@@ -3672,7 +3672,7 @@
               </p>
             </div>
             <div class="grid">
-              <img src="./hunterfy/static/icon/sofa.png" alt="icon-safa" class="img-card"/>
+              <img src="./static/icon/sofa.png" alt="icon-safa" class="img-card"/>
               <h3 class="title">Book it from your sofa</h3>
               <hr/>
               <p>
@@ -3680,7 +3680,7 @@
               </p>           
             </div>
             <div class="grid">
-              <img src="./hunterfy/static/icon/something.png" alt="icon-somthing" class="img-card"/>
+              <img src="./static/icon/something.png" alt="icon-somthing" class="img-card"/>
               <h3 class="title">No commissions</h3>
               <hr/>
               <p>
@@ -3701,23 +3701,23 @@
           </div>
           <div class="content-grid">
             <div class="grid animation">
-              <img src="./hunterfy/static/images/Enjoy Hunting Activities.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/Enjoy Hunting Activities.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/Exclusive Acommodation.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/Exclusive Acommodation.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation text">
               <p>“With the hunt you never know but I have hit you guys”</p>
               <span>Martín G.</span>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/Exclusive Services of Hunterfy.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/Exclusive Services of Hunterfy.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/Friendly Hunters.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/Friendly Hunters.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/Full Hunting Experience.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/Full Hunting Experience.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation text">
               <p>“Tremendous hunting day, what else can I say”
@@ -3725,7 +3725,7 @@
               <span>Antonio D.</span>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/Gredos Ibex stalking.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/Gredos Ibex stalking.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation text">
               <p>“Highlight the personal service received and the team behind. Thank you”
@@ -3733,26 +3733,26 @@
               <span>John AG.</span>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/Hunterfy senses.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/Hunterfy senses.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/Hunting ibex spain.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/Hunting ibex spain.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/International Hunter.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/International Hunter.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/International Hunters.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/International Hunters.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation text">
               <p>“I feel your passion for hunting from beginning to end. Do not stop doing things like this. Thank you”</p>
               <span>Mary E.</span>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/Spanish Food with the best chef.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/Spanish Food with the best chef.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation">
-              <img src="./hunterfy/static/images/Spanish Ibex Specimen.jpg" alt="icon-somthing" class="img-card"/>
+              <img src="./static/images/Spanish Ibex Specimen.jpg" alt="icon-somthing" class="img-card"/>
             </div>
             <div class="grid animation text">
               <p>“After so many years of hunting, I never imagined finding something so authentic and well done”</p>
@@ -3792,7 +3792,7 @@
       </section>
       <section class="media">
         <div class="container">
-          <img src="./hunterfy/static/images/all.jpg"/>
+          <img src="./static/images/all.jpg"/>
         </div>
       </section>
       <section class="linkbuild">
@@ -4292,28 +4292,28 @@
           <div class="grid-container">
             <div class="grid-place">
               <a id="gredos">
-                <img src="./hunterfy/static/images/G1 Hunting spanish ibex.jpg" alt=""/>
+                <img src="./static/images/G1 Hunting spanish ibex.jpg" alt=""/>
                 <h3>gredos</h3>
                 <paper-ripple></paper-ripple>
               </a>
             </div>
             <div class="grid-place">
               <a id="sierraNevada">
-                <img src="./hunterfy/static/images/Spanish Hunting Landscapes.jpg" alt=""/>
+                <img src="./static/images/Spanish Hunting Landscapes.jpg" alt=""/>
                 <h3>sierra nevada</h3>
                 <paper-ripple></paper-ripple>
               </a> 
             </div>
             <div class="grid-place">
               <a id="ronda">
-                <img src="./hunterfy/static/images/Panoramic view of Ronda.jpg" alt=""/>
+                <img src="./static/images/Panoramic view of Ronda.jpg" alt=""/>
                 <h3>ronda</h3>
                 <paper-ripple></paper-ripple>
               </a>  
             </div>
             <div class="grid-place">
               <a id="beceite">
-                <img src="./hunterfy/static/images/G1 Beceite secrets.jpg" alt=""/>
+                <img src="./static/images/G1 Beceite secrets.jpg" alt=""/>
                 <h3>beceite</h3>
                 <paper-ripple></paper-ripple>
               </a>
@@ -5425,7 +5425,7 @@
         <app-header-layout has-scrolling-region fullbleed id="layout">
           <app-header slot="header" condenses fixed effects="waterfall" id="header" hidden="[[ hidden ]]">
             <app-toolbar>
-              <paper-icon-button class="logo" src="./hunterfy/static/logo.png"></paper-icon-button>
+              <paper-icon-button class="logo" src="./static/logo.png"></paper-icon-button>
               <div main-href>
                 <paper-button>
                   <a href="[[ routePath ]]form">
