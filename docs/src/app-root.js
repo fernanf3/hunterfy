@@ -3601,7 +3601,7 @@
           <div class="content">
             <h1 class="title">Ibex largest plataform in Spain</h1>
             <h2 class="subtitle">We compare among hundreds of outfitters. Design your trip in in 1 minute.</h2>
-            <a href="/form">
+            <a href="/hunterfy/form">
               <paper-button class="button-ht">let's go</paper-button>
             </a>
           </div>
@@ -3785,7 +3785,7 @@
           <div class="title">
             <h1>Enjoy the hunting of yesterday with today's technology</h1>
           </div>
-          <a href="[[ routePath ]]form">
+          <a href="/hunterfy/form">
             <paper-button class="button-ht">START</paper-button>
           </a>
         </div>
